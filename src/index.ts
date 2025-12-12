@@ -23,3 +23,37 @@ if (button && input) {
 // 2:
 // const numbers: number[] = [1, 2, 3, 4, 0];
 // numbers.push('12');
+
+// 3:
+// 3.1:
+// const user: { name: string; age: number } = {
+//   name: 'Bob',
+//   age: 12,
+// };
+
+// 3.2
+// type User = { name: string; age: number };
+
+// const user: User = {
+//   name: 'Bob',
+//   age: 12,
+// };
+
+// user.age = '15';
+// user.name = 1;
+
+// 4:
+// type eventType = 'lesson' | 'deadline';
+// const event: eventType = 'deadline';
+
+type size = 'small' | 'medium' | 'large';
+
+type User = { name: string; age: number | string };
+
+const user: User = {
+  name: 'Bob',
+  age: 12,
+};
+
+user.age = '15';
+user.name = 'Bobby';
