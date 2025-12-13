@@ -104,3 +104,20 @@ if (button && input) {
 // function userConstructor(name: string, age: number, hobby: string): User {
 //   return { name, age, hobby };
 // }
+
+// 7.1 method of object
+// type Car = {
+//   color: string;
+//   price: number;
+//   currency: string;
+//   start: (color: string) => {};
+// };
+
+// const Car = {
+//   color: 'red',
+//   price: 1000,
+//   currency: 'UAH',
+//   start: function (color) {
+//     console.log(`Start ${color}!`);
+//   },
+// };
