@@ -67,3 +67,15 @@ if (button && input) {
 // let age: unknown = 12;
 // age = 'Bob';
 // age.toFixed()
+
+// 6
+// type size = 'small' | 'medium' | 'large';
+
+// enum Sizes {
+//   small = 'small',
+//   medium = 'medium',
+//   large = 'large',
+// }
+
+// const button1: size = 'large';
+// const button2: Sizes = Sizes.large;
