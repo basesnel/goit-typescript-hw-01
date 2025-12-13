@@ -121,3 +121,22 @@ if (button && input) {
 //     console.log(`Start ${color}!`);
 //   },
 // };
+
+// 8
+
+// type User = {
+//   name: string;
+//   age: number;
+//   role?: string;
+// };
+
+// const user: User = {
+//   name: 'Bob',
+//   age: 12,
+// };
+
+// const admin: User = {
+//   name: 'John',
+//   age: 23,
+//   role: 'Admin',
+// };
